@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YPWebSocket_Example' do
+  pod 'YPWebSocket', :path => '../'
+
+  target 'YPWebSocket_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
