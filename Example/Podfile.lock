@@ -1,0 +1,27 @@
+PODS:
+  - PocketSocket (1.0.1):
+    - PocketSocket/Client (= 1.0.1)
+    - PocketSocket/Core (= 1.0.1)
+    - PocketSocket/Server (= 1.0.1)
+  - PocketSocket/Client (1.0.1):
+    - PocketSocket/Core
+  - PocketSocket/Core (1.0.1)
+  - PocketSocket/Server (1.0.1):
+    - PocketSocket/Client
+  - YPWebSocket (0.1.0):
+    - PocketSocket
+
+DEPENDENCIES:
+  - YPWebSocket (from `../`)
+
+EXTERNAL SOURCES:
+  YPWebSocket:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PocketSocket: 9c6867d66fb4f962af96b9b07f4b45bb561b2c2a
+  YPWebSocket: c44d95d231a285c6db037787014c785a2ce07587
+
+PODFILE CHECKSUM: 0e1e1c31f6092a9055674abc0c99704690ac48fd
+
+COCOAPODS: 1.2.1

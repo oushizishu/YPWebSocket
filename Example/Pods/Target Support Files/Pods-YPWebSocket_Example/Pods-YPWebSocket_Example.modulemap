@@ -1,0 +1,6 @@
+framework module Pods_YPWebSocket_Example {
+  umbrella header "Pods-YPWebSocket_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

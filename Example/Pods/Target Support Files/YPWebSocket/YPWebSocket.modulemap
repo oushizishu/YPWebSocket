@@ -1,0 +1,6 @@
+framework module YPWebSocket {
+  umbrella header "YPWebSocket-umbrella.h"
+
+  export *
+  module * { export * }
+}

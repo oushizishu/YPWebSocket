@@ -1,0 +1,29 @@
+{
+  "name": "YPWebSocket",
+  "version": "0.1.0",
+  "summary": "webSocket库",
+  "description": "提供webSocket基础功能",
+  "homepage": "https://github.com/oushizishu/YPWebSocket",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "oushizishu": "xinyapeng@baijiahulian.com"
+  },
+  "source": {
+    "git": "https://github.com/oushizishu/YPWebSocket.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "YPWebSocket/Classes/**/*",
+  "libraries": "stdc++",
+  "dependencies": {
+    "PocketSocket": [
+
+    ]
+  }
+}
